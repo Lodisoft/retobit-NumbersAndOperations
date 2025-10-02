@@ -6,12 +6,14 @@ public class NumbersAndOperations {
      * @return La variable result.
      */
     public int sum() {
-        int numberA;
-        int numberB;
+        int numberA =23;
+        int numberB =40;
+        int result;
+        result = numberA + numberB;
 
         // Tu código aquí
 
-        return 0; // Sustituye el 0 por result
+        return result; // Sustituye el 0 por result
     }
 
     /**
@@ -23,10 +25,12 @@ public class NumbersAndOperations {
     public float division(){
         int numberA = 10;
         int numberB = 3;
+        float result;
 
         // Tu código aquí
+        result=(float) numberA / numberB;
 
-        return 0.0f; // sustituye 0.0f por la variable "result"
+        return result; // sustituye 0.0f por la variable "result"
     }
 
     /**
@@ -36,8 +40,8 @@ public class NumbersAndOperations {
      * @return No modifiques el return
      */
     public int modulo(){
-        int numberA = 1;
-        int numberB = 1;
+        int numberA = 3;
+        int numberB = 2;
 
         // Tu código aquí
 
@@ -54,6 +58,7 @@ public class NumbersAndOperations {
         int randomNumber = 9999;
 
         // Tu código aquí
+        randomNumber = (int) (Math.random()*101);
 
         return randomNumber; // No hace falta modificar el return. Si los valores que has asignado son correctos, el test pasará 😉
     }
@@ -67,10 +72,12 @@ public class NumbersAndOperations {
     public int power(){
         int numberA = 9;
         int numberB = 3;
+        int result;
 
         // Tu código aquí
+        result=(int) Math.pow(numberB, numberA);
 
-        return 0; // sustituye el 0 por la variable result
+        return result; // sustituye el 0 por la variable result
     }
 
     /**
@@ -81,7 +88,7 @@ public class NumbersAndOperations {
      * @return No modifiques el return
      */
     public long roundNumber() { // Usamos 'long' porque Math.round() devuelve long
-        double decimalNumber = 0.0;
+        double decimalNumber = 9.8;
 
         // Tu código aquí
 
@@ -97,10 +104,12 @@ public class NumbersAndOperations {
      */
     public int combinedOperations() {
         int initialValue = 7;
+        int finalResult;
 
         // Tu código aquí
+        finalResult= (initialValue+5)*13;
 
-        return 0; // Sustituye el 0 por finalResult
+        return finalResult; // Sustituye el 0 por finalResult
     }
 
     public static void main(String[] args) {
